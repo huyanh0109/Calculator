@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/tvcal"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:text="Hello World!"
+        android:gravity="bottom|end"
+        android:textSize="70dp"
+
+        />
+    <LinearLayout
+        android:layout_below="@+id/tvcal"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="bottom">
+    <GridLayout
+        android:columnCount="4"
+        android:rowCount="4"
+
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp">
+
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="1"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:background="@drawable/customtv"/>
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="2"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:background="@drawable/customtv"/>
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="3"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:background="@drawable/customtv"/>
+        <TextView
+            android:id="@+id/tvplus"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="+"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:background="@drawable/customtv"/>
+        <TextView
+            android:id="@+id/tv4"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="4"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:background="@drawable/customtv"/>
+        <TextView
+            android:id="@+id/tv5"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="5"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:background="@drawable/customtv" />
+        <TextView
+            android:id="@+id/tv6"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="6"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:background="@drawable/customtv" />
+        <TextView
+            android:id="@+id/tvminus"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="-"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:background="@drawable/customtv" />
+        <TextView
+            android:id="@+id/tv7"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="7"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:background="@drawable/customtv" />
+        <TextView
+            android:id="@+id/tv8"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="8"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:background="@drawable/customtv" />
+        <TextView
+            android:id="@+id/tv9"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="9"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:background="@drawable/customtv" />
+        <TextView
+            android:id="@+id/tvmultiply"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="X"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:background="@drawable/customtv" />
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="0"
+            android:id="@+id/tv0"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:background="@drawable/customtv" />
+        <TextView
+            android:id="@+id/tvnone"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text=""
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:background="@drawable/customtv"/>
+        <TextView
+            android:id="@+id/tvequal"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="="
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:background="@drawable/customtv" />
+        <TextView
+            android:id="@+id/tvdevision"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="/"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:background="@drawable/customtv" />
+</GridLayout>
+    </LinearLayout>
+</RelativeLayout>
